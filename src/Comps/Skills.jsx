@@ -8,10 +8,10 @@ function Skills(){
         <div>
             <h3>Skills</h3>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Still</li>
+                <li>Building</li>
+                <li>Those</li>
+                <li>Skills</li>
             </ul>
 
         </div>
