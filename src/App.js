@@ -8,20 +8,21 @@ import Skills from "./Comps/Skills";
 import Projects from "./Comps/Projects"
 
 function App() {
-  
+  const BodyDiv = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin 3% 0;
+  `
 
   
   return (
-    <div>
+    <BodyDiv>
       <Header/>
       <AboutMe/>
       <Skills/>
       <Projects/>
-
-
-
-
-    </div>
+    </BodyDiv>
   );
 }
 

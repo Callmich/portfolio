@@ -2,10 +2,12 @@ import React from "react";
 import styled from "styled-components";
 
 function Skills(){
-
+    const SkillsDiv = styled.div`
+    text-align: center;
+    `
 
     return (
-        <div>
+        <SkillsDiv>
             <h3>Skills</h3>
             <ul>
                 <li>Still</li>
@@ -14,7 +16,7 @@ function Skills(){
                 <li>Skills</li>
             </ul>
 
-        </div>
+        </SkillsDiv>
 
     )
 }
